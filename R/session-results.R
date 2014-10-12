@@ -12,7 +12,7 @@
 ##' @seealso \code{link{readHTMLTable}}
 session_results <- function(session_url){
     session_table <-
-        XML::readHTMLTable(session_url,
+        XML::readHTMLTable(session_url, header=TRUE,
                            stringsAsFactors=FALSE)[[1]]
     return(session_table)
 }
