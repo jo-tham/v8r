@@ -3,11 +3,14 @@ Title: What the package does (one line)
 Version: 0.1
 Authors@R: 'Jotham Apaloo <jothamapaloo@gmail.com> [aut, cre]'
 Description: What the package does (one paragraph)
-Depends: R (>= 3.1.1)
+Depends:
+    R (>= 3.1.1)
 License: GPLv3
 LazyData: true
-Suggests: testthat
-Imports: magrittr,
+Suggests:
+    testthat
+Imports:
+    magrittr,
     dplyr,
     XML,
     ggplot2
