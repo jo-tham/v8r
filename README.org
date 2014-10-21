@@ -1,0 +1,18 @@
+* Data sources
+  - the structure of event results page urls is not
+    tractable
+  - a better approach then is to create a sitemap of the top
+    [[http://www.v8supercars.com.au/championship/2014-v8-supercars-championship/][season page]] to have a list of all possibel pages, and
+    sensibly extract all event session pages, and determine
+    which event and session type the url contains
+  - 
+
+* Pulling data
+  - using XML to pull html tables
+  - we can subset the sitemap links, and apply the
+    session_results function of a list or vector of urls -
+    let it behave this wawy of session_url is a list
+  - should also get, for each session url, event name,
+    session type, session number, 
+
+* 
