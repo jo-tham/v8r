@@ -6,18 +6,14 @@
 session_results(session_url)
 }
 \arguments{
-\item{session_url}{}
+\item{session_url}{character, link to v8supercars.com.au
+results page}
 }
 \value{
 data frame, class session
 }
 \description{
 Parse session results from webpage
-}
-\details{
-Should add some means of trying to cleverly distinguish
-results tables from other tables
-could add class for the series, i.e. v8sc, f1, motogp, wrc
 }
 \author{
 Jotham Apaloo
