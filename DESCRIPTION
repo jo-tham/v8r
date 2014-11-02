@@ -5,7 +5,7 @@ Authors@R: 'Jotham Apaloo <jothamapaloo@gmail.com> [aut, cre]'
 Description: What the package does (one paragraph)
 Depends:
     R (>= 3.1.1)
-License: GPLv3
+License: GPL-3
 LazyData: true
 Suggests:
     testthat
