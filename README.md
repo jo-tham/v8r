@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jo-tham/v8r.png?branch=master)](https://travis-ci.org/jo-tham/v8r)
+
 # Data sources
 
 - the structure of event results page urls is not tractable
